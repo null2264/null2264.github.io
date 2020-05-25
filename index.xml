@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>null2264&#39;s Blog</title>
-    <link>http://null2264.github.io/</link>
+    <link>https://null2264.github.io/</link>
     <description>Recent content on null2264&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 May 2020 09:23:47 +0700</lastBuildDate>
     
-	<atom:link href="http://null2264.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://null2264.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Post</title>
-      <link>http://null2264.github.io/test/</link>
+      <link>https://null2264.github.io/test/</link>
       <pubDate>Mon, 25 May 2020 09:23:47 +0700</pubDate>
       
-      <guid>http://null2264.github.io/test/</guid>
+      <guid>https://null2264.github.io/test/</guid>
       <description>Test</description>
     </item>
     
