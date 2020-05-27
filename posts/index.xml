@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tag2 on null2264&#39;s Blog</title>
-    <link>https://null2264.github.io/tags/tag2/</link>
-    <description>Recent content in tag2 on null2264&#39;s Blog</description>
+    <title>Posts on null2264&#39;s Blog</title>
+    <link>https://null2264.github.io/posts/</link>
+    <description>Recent content in Posts on null2264&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 May 2020 14:25:54 +0700</lastBuildDate>
     
-	<atom:link href="https://null2264.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://null2264.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

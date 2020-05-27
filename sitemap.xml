@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://null2264.github.io/hello-world/</loc>
+    <loc>https://null2264.github.io/posts/202005/hello-world/</loc>
     <lastmod>2020-05-25T14:25:54+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://null2264.github.io/</loc>
+    <lastmod>2020-05-25T14:25:54+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://null2264.github.io/posts/</loc>
     <lastmod>2020-05-25T14:25:54+07:00</lastmod>
   </url>
   
@@ -38,7 +43,7 @@
   </url>
   
   <url>
-    <loc>https://null2264.github.io/test/</loc>
+    <loc>https://null2264.github.io/posts/202005/post/</loc>
     <lastmod>2020-05-25T09:23:47+07:00</lastmod>
   </url>
   
