@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <title>
 
-	test -
+	 -
 
 null2264&#39;s Blog
 </title>
@@ -60,18 +60,28 @@ null2264&#39;s Blog
 </div>
 </aside>
 		<section class="main-side">
+<div id="post">
+	
 
-	<div id="post-index">
-		
-<div id="post-header" class="post-header">
-<h1 id="post-title" class="title" > Hello World </h1>
-	 <h4 id="post-date">by null2264 — May 6, 2020 • 14:25 WIB</h4> 
-</div>
+	<div id="post-content" class="content">
+		<a id="twitch-stream" disabled> Twitch Stream </a>
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="twitchstream"></div>
+<script type="text/javascript">
+  var options = {
+    width: 854,
+    height: 480,
+    channel: "ZiRO2264",
+    
+    parent: ["embed.example.com", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("twitchstream", options);
+  player.setVolume(0.5);
+</script>
 
-
-		<div id="post-content" class="summary"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper neque gravida cursus suscipit. Curabitur nisi lacus, volutpat in ex id, imperdiet aliquet diam. Praesent dignissim libero sit amet sem commodo aliquet. Maecenas quis ligula quis massa euismod pretium ut sed ligula. Ut non sem imperdiet, porttitor tellus vitae, bibendum erat. Donec quis nisi porta, facilisis ex in, fringilla nisi. Proin tincidunt dolor id ligula tincidunt, id pretium purus suscipit. Cras aliquam elit nec sem rutrum, sed dapibus odio sagittis. ... </p><a href="https://null2264.github.io/posts/202005/hello-world/" id="readmore" >Read More...</a></div>
+ 
 	</div>
-
+</div>
 
 		</section>
 	</div>

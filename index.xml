@@ -29,5 +29,14 @@
       <description>Test</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://null2264.github.io/stream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://null2264.github.io/stream/</guid>
+      <description>Twitch Stream    var options = { width: 854, height: 480, channel: &#34;ZiRO2264&#34;, parent: [&#34;embed.example.com&#34;, &#34;othersite.example.com&#34;] }; var player = new Twitch.Player(&#34;twitchstream&#34;, options); player.setVolume(0.5);  </description>
+    </item>
+    
   </channel>
 </rss>
