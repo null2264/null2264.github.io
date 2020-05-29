@@ -6,44 +6,35 @@
     <description>Recent content in Tags on null2264&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2020 14:25:54 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2020 10:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://null2264.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>tag2</title>
-      <link>https://null2264.github.io/tags/tag2/</link>
-      <pubDate>Mon, 25 May 2020 14:25:54 +0700</pubDate>
+      <title>introduction</title>
+      <link>https://null2264.github.io/tags/introduction/</link>
+      <pubDate>Fri, 29 May 2020 10:00:00 +0700</pubDate>
       
-      <guid>https://null2264.github.io/tags/tag2/</guid>
+      <guid>https://null2264.github.io/tags/introduction/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tag3</title>
-      <link>https://null2264.github.io/tags/tag3/</link>
-      <pubDate>Mon, 25 May 2020 14:25:54 +0700</pubDate>
+      <title>linux</title>
+      <link>https://null2264.github.io/tags/linux/</link>
+      <pubDate>Fri, 29 May 2020 10:00:00 +0700</pubDate>
       
-      <guid>https://null2264.github.io/tags/tag3/</guid>
+      <guid>https://null2264.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>test</title>
-      <link>https://null2264.github.io/tags/test/</link>
-      <pubDate>Mon, 25 May 2020 14:25:54 +0700</pubDate>
+      <title>migrate</title>
+      <link>https://null2264.github.io/tags/migrate/</link>
+      <pubDate>Fri, 29 May 2020 10:00:00 +0700</pubDate>
       
-      <guid>https://null2264.github.io/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>helloworld</title>
-      <link>https://null2264.github.io/tags/helloworld/</link>
-      <pubDate>Mon, 25 May 2020 09:23:47 +0700</pubDate>
-      
-      <guid>https://null2264.github.io/tags/helloworld/</guid>
+      <guid>https://null2264.github.io/tags/migrate/</guid>
       <description></description>
     </item>
     
