@@ -1,0 +1,40 @@
+ul.stepper {
+    list-style: none;
+    li {
+        position: relative;
+        padding: 10px;
+        a {
+            color: gray;
+        }
+        &:before {
+            position: absolute;
+            content: "";
+            width: 11px;
+            height: 11px;
+            background: black;
+            border-radius: 100%;
+            top: 18px;
+            left: 13px;
+        }
+        &:first-child:before {
+            width: 17px;
+            height: 17px;
+            top: 14px;
+            left: 10px;
+        }
+        & > .stepper-title {
+            font-size: 1.2em;
+            padding-left: 24px
+        }
+        &:not(:last-child):after {
+            content: '';
+            width: 3px;
+            height: 100%;
+            background: black;
+            position: absolute;
+            left: 16.5px;
+            top: 22px;
+        }
+    }
+}
+
