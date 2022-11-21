@@ -1,6 +1,60 @@
 body {
     font-family: Overpass;
     color: var(--black);
+    background: var(--blue);
+}
+
+.col-3, .col-9 {
+    min-height: 1px;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.subtitle {
+    color: var(--gray);
+}
+
+small.smallest {
+    font-size: 0.6em;
+}
+
+.main-content {
+    background: var(--white);
+    min-height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+}
+
+#pasfoto-crop {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 100%;
+    border: 8px solid var(--white);
+    margin-block: 32px 16px;
+}
+
+#pasfoto {
+    min-width: 150px;
+    min-height: 150px;
+    position: absolute;
 }
 
 .togglable-hidden-content {
@@ -9,6 +63,12 @@ body {
     transition: max-height .5s ease-out;
 }
 
+.show-hidden-content {
+    cursor: pointer;
+}
+
+#show-3:checked~#content-3,
+#show-2:checked~#content-2,
 #show-1:checked~#content-1 {
     max-height: 100vh;
     overflow: hidden;
