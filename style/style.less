@@ -3,6 +3,18 @@ body {
     color: var(--black);
 }
 
+.togglable-hidden-content {
+    max-height: 0vh;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+#show-1:checked~#content-1 {
+    max-height: 100vh;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
 ul.stepper {
     list-style: none;
     li {
