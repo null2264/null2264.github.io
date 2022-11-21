@@ -24,11 +24,15 @@ ul.stepper {
 	    z-index: 69;
         }
         &:first-child:before {
+            content: "•";
             width: 17px;
             height: 17px;
             top: 13px;
             left: 10px;
 	    border-width: 3px;
+            text-align: center;
+            line-height: 17px;
+	    font-size: 1.5em;
         }
         & > * {
             padding-left: 24px
