@@ -96,9 +96,6 @@ ul.stepper {
     li {
         position: relative;
         padding: 10px;
-        a {
-            color: var(--white);
-        }
         &:before {
             position: absolute;
             content: "";
@@ -133,6 +130,28 @@ ul.stepper {
         }
         .stepper-content {
             font-size: 0.8em;
+            .vector-gallery {
+                display: flex;
+                flex-wrap: wrap;
+                .vector-showcase:not(:last-child) {
+                    padding-right: 24px;
+                }
+            }
+            .vector-showcase {
+                width: fit-content;
+                img {
+                    min-width: 250px;
+                    min-height: 250px;
+                    max-width: 250px;
+                }
+                a:link, a:visited {
+                    color: var(--blue) !important;
+                    text-decoration: none;
+                }
+            }
+            & .vector-showcase-caption {
+                text-align: center;
+            }
         }
         &:not(:last-child):after {
             content: '';
