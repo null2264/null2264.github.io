@@ -169,3 +169,35 @@ ul.stepper {
     }
 }
 
+.admonition {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    padding: 16px;
+    border-left: 54px solid var(--blue);
+    position: relative;
+    .admonition-title {
+        display: flex;
+        align-items: center;
+        .material-symbols-rounded {
+            font-size: 18px;
+        }
+        *:not(:last-child) {
+            padding-right: 4px;
+        }
+        padding-bottom: 8px;
+    }
+    &:before {
+        color: var(--white);
+        left: -39px;
+        font-family: "Material Symbols Rounded";
+        font-size: 24px;
+        bottom: 50%;
+        margin-bottom: -12px;
+        position: absolute;
+        line-height: 1;
+    }
+}
+
+div.warning:before {
+    content: "warning";
+}
