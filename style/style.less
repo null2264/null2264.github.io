@@ -1,3 +1,7 @@
+html, body, .container, .row {
+    overflow: auto;
+}
+
 body {
     font-family: Overpass;
     color: var(--black);
@@ -36,9 +40,9 @@ small.smallest {
 }
 
 .sidebar {
+    position: sticky;
     display: flex;
     flex-direction: column;
-    height: 100%;
     align-items: center;
     text-align: center;
     color: var(--white);
