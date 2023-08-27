@@ -1,5 +1,5 @@
 body {
-  font-family: Overpass;
+  font-family: Inter;
   color: var(--black);
   background: var(--blue);
 }
@@ -66,12 +66,24 @@ small.smallest {
   display: none;
 }
 .show-hidden-content {
+  display: flex;
   cursor: pointer;
+  align-items: center;
+  gap: 0.5rem;
 }
-.show-hidden-content:after {
-  content: "(click to show/hide details)";
+.show-hidden-content .expand {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url("../assets/icons.png");
   font-size: 0.6em;
   color: var(--gray);
+  transform: rotate(-90deg);
+  transition: all 0.2s ease;
+}
+.show-hidden-content-master:checked + div > .show-hidden-content .expand {
+  transform: rotate(0deg);
+  transition: all 0.2s ease;
 }
 #show-3:checked ~ #content-3,
 #show-2:checked ~ #content-2,

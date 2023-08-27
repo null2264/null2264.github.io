@@ -1,5 +1,5 @@
 body {
-    font-family: Overpass;
+    font-family: Inter;
     color: var(--black);
     background: var(--blue);
 }
@@ -79,11 +79,26 @@ small.smallest {
 }
 
 .show-hidden-content {
+    display: flex;
     cursor: pointer;
-    &:after {
-        content: "(click to show/hide details)";
+    align-items: center;
+    gap: 0.5rem;
+    .expand {
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        background-image: url("../assets/icons.png");
         font-size: 0.6em;
         color: var(--gray);
+        transform: rotate(-90deg);
+        transition: all 0.2s ease;
+    }
+}
+
+.show-hidden-content-master:checked+div > .show-hidden-content {
+    .expand {
+        transform: rotate(0deg);
+        transition: all 0.2s ease;
     }
 }
 
