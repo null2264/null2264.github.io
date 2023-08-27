@@ -1,0 +1,3 @@
+#!/bin/sh
+
+lessc style/style.less style/style.css && echo "Success" || echo "Build failed, make sure you have 'less' installed!"

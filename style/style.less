@@ -75,9 +75,7 @@ small.smallest {
 }
 
 .togglable-hidden-content {
-    max-height: 0vh;
-    overflow: hidden;
-    transition: max-height .5s ease-out;
+    display: none;
 }
 
 .show-hidden-content {
@@ -92,9 +90,8 @@ small.smallest {
 #show-3:checked~#content-3,
 #show-2:checked~#content-2,
 #show-1:checked~#content-1 {
-    max-height: 100vh;
+    display: block;
     overflow: hidden;
-    transition: max-height .5s ease-in;
 }
 
 .row {
