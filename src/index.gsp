@@ -36,7 +36,7 @@ html lang="en" {
               {}
               div .stepper-title {
                 label .show-hidden-content for="show-1" {
-                  a .expand {}
+                  a .expand {-}
                   b {- Software Developer / Engineer }
                 }
                 p .stepper-cv-year {- 2020-present }
@@ -63,7 +63,7 @@ html lang="en" {
               {}
               div .stepper-title {
                 label .show-hidden-content for="show-2" {
-                  a .expand {}
+                  a .expand {-}
                   b {- Vector Design }
                 }
                 p .stepper-cv-year {- 2019-2020 }
@@ -110,7 +110,7 @@ html lang="en" {
               {}
               div .stepper-title {
                 label .show-hidden-content for="show-3" {
-                  a .expand {}
+                  a .expand {-}
                   b {- Test }
                 }
                 p .stepper-cv-year {- 2020-present }
