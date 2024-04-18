@@ -34,9 +34,9 @@ jobs:
         run: |
           npm install -g less
 
-      - name: Setup GSP
+      - name: Setup GSP (v3.1.0)
         run: |
-          git clone https://git.sr.ht/~mango/gsp
+          git clone -b v3.1.0 https://git.sr.ht/~mango/gsp
           cd gsp
           make
           sudo make install
@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir style
           lessc src/style/style.less style/style.css
-          grep -vE '^\s*(//|$)' src/index.gsp | gsp > index.html
+          gsp src/index.gsp > index.html
           # Clean up before deploying
           rm -rf src/
           rm -rf README.md

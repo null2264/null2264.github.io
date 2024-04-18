@@ -1,4 +1,3 @@
-// vim: sw=2 ts=2 sta et
 html lang="en" {
   head {
     meta charset="UTF-8" {}
@@ -121,10 +120,12 @@ html lang="en" {
                 .togglable-hidden-content
               {
                 p {- Test }
+                / {
                 h1 {- H1 }
                 h2 {- H2 }
                 h3 {- H3 }
                 h4 {- H4 }
+                }
               }
             }
           }
