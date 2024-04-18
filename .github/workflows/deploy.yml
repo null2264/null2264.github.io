@@ -1,0 +1,62 @@
+name: Deploy to Pages
+
+on:
+  push:
+    branches: ["master"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup NPM (Node 18)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Setup Less.JS
+        run: |
+          npm install -g less
+
+      - name: Setup GSP
+        run: |
+          make
+          sudo make install
+
+      - name: Build Static for Pages
+        run: |
+          mkdir style
+          lessc src/style/style.less style/style.css
+          grep -vE '^\s*(#|$)' src/index.gsp | gsp > index.html
+          # Clean up before deploying
+          rm -rf src/
+          rm -rf README.md
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
