@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir style
           lessc src/style/style.less style/style.css
-          grep -vE '^\s*(#|$)' src/index.gsp | gsp > index.html
+          grep -vE '^\s*(//|$)' src/index.gsp | gsp > index.html
           # Clean up before deploying
           rm -rf src/
           rm -rf README.md

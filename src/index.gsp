@@ -1,4 +1,4 @@
-# vim: sw=2 ts=2 sta et
+// vim: sw=2 ts=2 sta et
 html lang="en" {
   head {
     meta charset="UTF-8" {}
