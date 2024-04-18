@@ -36,6 +36,8 @@ jobs:
 
       - name: Setup GSP
         run: |
+          git clone https://git.sr.ht/~mango/gsp
+          cd gsp
           make
           sudo make install
 
