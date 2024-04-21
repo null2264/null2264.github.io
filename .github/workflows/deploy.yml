@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir style
           lessc src/style/style.less style/style.css
-          gsp src/index.gsp > index.html
+          m4 -P src/include/*.m4 src/index.gsp | gsp > index.html
           # Clean up before deploying
           rm -rf src/
           rm -rf README.md
@@ -57,7 +57,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          path: "."
 
       - name: Deploy to GitHub Pages
         id: deployment

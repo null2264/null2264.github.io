@@ -27,21 +27,21 @@ html lang="en" {
           ul .stepper {
             li {
               input
-                #show-1
+                m4_main_stepper_incr(`#show-')
                 .show-hidden-content-master
                 type="checkbox"
                 hidden=""
                 checked=""
               {}
               div .stepper-title {
-                label .show-hidden-content for="show-1" {
+                label .show-hidden-content for="m4_main_stepper(`show-')" {
                   a .expand {-}
                   b {- Software Developer / Engineer }
                 }
                 p .stepper-cv-year {- 2020-present }
               }
               div
-                #content-1
+                m4_main_stepper(`#content-')
                 .stepper-content
                 .togglable-hidden-content
               {
@@ -54,21 +54,21 @@ html lang="en" {
             }
             li {
               input
-                #show-2
+                m4_main_stepper_incr(`#show-')
                 .show-hidden-content-master
                 type="checkbox"
                 hidden=""
                 checked=""
               {}
               div .stepper-title {
-                label .show-hidden-content for="show-2" {
+                label .show-hidden-content for="m4_main_stepper(`show-')" {
                   a .expand {-}
                   b {- Vector Design }
                 }
                 p .stepper-cv-year {- 2019-2020 }
               }
               div
-                #content-2
+                m4_main_stepper(`#content-')
                 .stepper-content
                 .togglable-hidden-content
               {
@@ -101,21 +101,21 @@ html lang="en" {
             }
             li {
               input
-                #show-3
+                m4_main_stepper_incr(`#show-')
                 .show-hidden-content-master
                 type="checkbox"
                 hidden=""
                 checked=""
               {}
               div .stepper-title {
-                label .show-hidden-content for="show-3" {
+                label .show-hidden-content for="m4_main_stepper(`show-')" {
                   a .expand {-}
                   b {- Test }
                 }
                 p .stepper-cv-year {- 2020-present }
               }
               div
-                #content-3
+                m4_main_stepper(`#content-')
                 .stepper-content
                 .togglable-hidden-content
               {
