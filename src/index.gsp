@@ -17,7 +17,7 @@ html lang="en" {
             div #pasfoto-crop {
               img
                 #pasfoto
-                src="https://sisfo.binadarma.ac.id//upload/71112.jpg"
+                src="https://cdn.aap.my.id/71112.jpg"
               {}
             }
             h2 {- Ahmad @b{-Ansori} Palembani }
