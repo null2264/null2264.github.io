@@ -32,82 +32,42 @@ html lang="en" {
               h3 {- H3 }
               h4 {- H4 }
             ])
-            li {
-              input
-                __main_stepper_count_incr([#show-])
-                .show-hidden-content-master
-                type="checkbox"
-                hidden=""
-                checked=""
-              {}
-              div .stepper-title {
-                label .show-hidden-content for="__main_stepper_count([show-])" {
-                  a .expand {-}
-                  b {- Vector Design }
-                }
-                p .stepper-cv-year {- 2019-2020 }
+            __main_stepper([Vector Design], [2019-2020], [
+              p {-
+                Started on April 2019, I created my first ever Vector Art as birthday gift (Although it finished very late).
+                Ended around 2020 because I no longer have the time, but I'm planning pick it up again in the future.
               }
-              div
-                __main_stepper_count([#content-])
-                .stepper-content
-                .togglable-hidden-content
-              {
-                p {-
-                  Started on April 2019, I created my first ever Vector Art as birthday gift (Although it finished very late).
-                  Ended around 2020 because I no longer have the time, but I'm planning pick it up again in the future.
+              br {}
+              div .vector-gallery {
+                div .vector-showcase {
+                  a href="#" {
+                    img src="https://cdn.aap.my.id/07f6e3f6-e510-4c82-b3b4-545735ed2dee/image.png" {}
+                    div .vector-showcase-caption {- Kobe Bryant }
+                  }
                 }
-                br {}
-                div .vector-gallery {
-                  div .vector-showcase {
-                    a href="#" {
-                      img src="https://cdn.aap.my.id/07f6e3f6-e510-4c82-b3b4-545735ed2dee/image.png" {}
-                      div .vector-showcase-caption {- Kobe Bryant }
-                    }
+                div .vector-showcase {
+                  a href="#" {
+                    img src="https://cdn.aap.my.id/0b79354e-d9d0-4d77-9f06-9e7668b244b7/image.png" {}
+                    div .vector-showcase-caption {- Felix Kjellberg / PewDiePie }
                   }
-                  div .vector-showcase {
-                    a href="#" {
-                      img src="https://cdn.aap.my.id/0b79354e-d9d0-4d77-9f06-9e7668b244b7/image.png" {}
-                      div .vector-showcase-caption {- Felix Kjellberg / PewDiePie }
-                    }
-                  }
-                  div .vector-showcase {
-                    a href="#" {
-                      img src="https://cdn.aap.my.id/8df6f5d5-2c93-4bed-9ebd-1dc565dce99c/image.png" {}
-                      div .vector-showcase-caption {- Tom Holland }
-                    }
+                }
+                div .vector-showcase {
+                  a href="#" {
+                    img src="https://cdn.aap.my.id/8df6f5d5-2c93-4bed-9ebd-1dc565dce99c/image.png" {}
+                    div .vector-showcase-caption {- Tom Holland }
                   }
                 }
               }
-            }
-            li {
-              input
-                __main_stepper_count_incr([#show-])
-                .show-hidden-content-master
-                type="checkbox"
-                hidden=""
-                checked=""
-              {}
-              div .stepper-title {
-                label .show-hidden-content for="__main_stepper_count([show-])" {
-                  a .expand {-}
-                  b {- Test }
-                }
-                p .stepper-cv-year {- 2020-present }
+            ])
+            __main_stepper([Test], [2020-present], [
+              p {- Test }
+              / {
+              h1 {- H1 }
+              h2 {- H2 }
+              h3 {- H3 }
+              h4 {- H4 }
               }
-              div
-                __main_stepper_count([#content-])
-                .stepper-content
-                .togglable-hidden-content
-              {
-                p {- Test }
-                / {
-                h1 {- H1 }
-                h2 {- H2 }
-                h3 {- H3 }
-                h4 {- H4 }
-                }
-              }
-            }
+            ])
           }
         }
       }
