@@ -12,18 +12,16 @@ html lang="en" {
   body {
     div .container {
       div .row {
-        div {
-          div .sidebar {
-            div #pasfoto-crop {
-              img
-                #pasfoto
-                src="https://cdn.aap.my.id/71112.jpg"
-              {}
-            }
-            h2 {- Ahmad @b{-Ansori} Palembani }
+        aside {
+          div #pasfoto-crop {
+            img
+              #pasfoto
+              src="https://cdn.aap.my.id/71112.jpg"
+            {}
           }
+          h2 {- Ahmad @b{-Ansori} Palembani }
         }
-        div .main-content {
+        article {
           ul .stepper {
             __main_stepper([Software Developer / Engineer], [2020-present], [
               p {- Test }
