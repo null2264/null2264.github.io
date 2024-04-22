@@ -25,50 +25,30 @@ html lang="en" {
         }
         div .main-content {
           ul .stepper {
+            __main_stepper([Software Developer / Engineer], [2020-present], [
+              p {- Test }
+              h1 {- H1 }
+              h2 {- H2 }
+              h3 {- H3 }
+              h4 {- H4 }
+            ])
             li {
               input
-                __main_stepper_incr([#show-])
+                __main_stepper_count_incr([#show-])
                 .show-hidden-content-master
                 type="checkbox"
                 hidden=""
                 checked=""
               {}
               div .stepper-title {
-                label .show-hidden-content for="__main_stepper([show-])" {
-                  a .expand {-}
-                  b {- Software Developer / Engineer }
-                }
-                p .stepper-cv-year {- 2020-present }
-              }
-              div
-                __main_stepper([#content-])
-                .stepper-content
-                .togglable-hidden-content
-              {
-                p {- Test }
-                h1 {- H1 }
-                h2 {- H2 }
-                h3 {- H3 }
-                h4 {- H4 }
-              }
-            }
-            li {
-              input
-                __main_stepper_incr([#show-])
-                .show-hidden-content-master
-                type="checkbox"
-                hidden=""
-                checked=""
-              {}
-              div .stepper-title {
-                label .show-hidden-content for="__main_stepper([show-])" {
+                label .show-hidden-content for="__main_stepper_count([show-])" {
                   a .expand {-}
                   b {- Vector Design }
                 }
                 p .stepper-cv-year {- 2019-2020 }
               }
               div
-                __main_stepper([#content-])
+                __main_stepper_count([#content-])
                 .stepper-content
                 .togglable-hidden-content
               {
@@ -101,21 +81,21 @@ html lang="en" {
             }
             li {
               input
-                __main_stepper_incr([#show-])
+                __main_stepper_count_incr([#show-])
                 .show-hidden-content-master
                 type="checkbox"
                 hidden=""
                 checked=""
               {}
               div .stepper-title {
-                label .show-hidden-content for="__main_stepper([show-])" {
+                label .show-hidden-content for="__main_stepper_count([show-])" {
                   a .expand {-}
                   b {- Test }
                 }
                 p .stepper-cv-year {- 2020-present }
               }
               div
-                __main_stepper([#content-])
+                __main_stepper_count([#content-])
                 .stepper-content
                 .togglable-hidden-content
               {
