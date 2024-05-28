@@ -39,19 +39,19 @@ html lang="en" {
               div .vector-gallery {
                 div .vector-showcase {
                   a href="#" {
-                    img src="https://cdn.aap.my.id/07f6e3f6-e510-4c82-b3b4-545735ed2dee/image.png" {}
+                    img src="https://cdn.aap.my.id/backup/07f6e3f6-e510-4c82-b3b4-545735ed2dee/image.png" {}
                     div .vector-showcase-caption {- Kobe Bryant }
                   }
                 }
                 div .vector-showcase {
                   a href="#" {
-                    img src="https://cdn.aap.my.id/0b79354e-d9d0-4d77-9f06-9e7668b244b7/image.png" {}
+                    img src="https://cdn.aap.my.id/backup/0b79354e-d9d0-4d77-9f06-9e7668b244b7/image.png" {}
                     div .vector-showcase-caption {- Felix Kjellberg / PewDiePie }
                   }
                 }
                 div .vector-showcase {
                   a href="#" {
-                    img src="https://cdn.aap.my.id/8df6f5d5-2c93-4bed-9ebd-1dc565dce99c/image.png" {}
+                    img src="https://cdn.aap.my.id/backup/8df6f5d5-2c93-4bed-9ebd-1dc565dce99c/image.png" {}
                     div .vector-showcase-caption {- Tom Holland }
                   }
                 }
