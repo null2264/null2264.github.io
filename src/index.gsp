@@ -2,6 +2,7 @@ html lang="en" {
   head {
     meta charset="UTF-8" {}
     meta name="viewport" content="width=device-width, initial-scale=1.0" {}
+    meta name="fediverse:creator" content="@null2264@hachyderm.io" {}
     link href="/static/style/color.css" type="text/css" rel="stylesheet" {}
     link href="/static/style/imports.css" type="text/css" rel="stylesheet" {}
     link href="/static/style/reset.css" type="text/css" rel="stylesheet" {}
